@@ -51,7 +51,7 @@ class Controller(Node):
 
     # =====================================================
     def command_callback(self, msg):
-        cmd = msg.data.strip().upper()  # ✅ استفاده از حروف بزرگ
+        cmd = msg.data.strip().upper()  
         
         # 🛑 STOP command - always accepted
         if cmd == 'STOP':
@@ -141,7 +141,7 @@ class Controller(Node):
             
             if elapsed < self.turn_duration:
                 # Perform the turn
-                twist.linear.x = self.turn_forward_speed  # ✅ کمی حرکت به جلو حین چرخش
+                twist.linear.x = self.turn_forward_speed  
                 
                 if self.pending_command == 'LEFT':
                     twist.angular.z = self.turn_speed  # Positive = counter-clockwise = LEFT
