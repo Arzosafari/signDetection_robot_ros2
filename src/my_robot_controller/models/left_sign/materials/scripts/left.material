@@ -1,0 +1,13 @@
+material LeftSign/Material
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture left.png
+      }
+    }
+  }
+}

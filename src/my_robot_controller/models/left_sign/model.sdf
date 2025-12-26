@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="left_sign">
+    <static>true</static>
+
+    <link name="sign">
+      <pose>0 0 0.2 0 0 0</pose>
+
+
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.3 0.02 0.3</size>
+          </box>
+        </geometry>
+      </collision>
+
+
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.3 0.02 0.3</size>
+          </box>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://left_sign/materials/scripts</uri>
+            <uri>model://left_sign/materials/textures</uri>
+            <name>LeftSign/Material</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>
+
