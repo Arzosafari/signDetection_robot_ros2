@@ -1,10 +1,10 @@
-TurtleBot Traffic Sign Following
+🧠TurtleBot Traffic Sign Following
 
 A ROS2-based TurtleBot project that detects traffic signs (STOP, LEFT, RIGHT) using OpenCV and controls robot motion using a state-machine–based controller.
 
 This project combines computer vision and robot motion control to create a simple but realistic autonomous driving behavior for educational purposes.
 
-Features:
+🚀 Features:
 
 Real-time traffic sign detection using camera input
 
